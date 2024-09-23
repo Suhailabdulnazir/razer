@@ -1,0 +1,229 @@
+*{
+  padding:0;
+  margin:0;
+}
+.main-navbar{
+  height: 40px;
+  width:100%; 
+  padding: 10px 0;
+  background-color: black;
+  border-bottom:2px solid #44d62c;
+}
+
+.logo{
+  width:35px;
+  height: 35px;
+}
+
+.nav-list ul{
+  display:flex;
+  color:#999;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+
+}
+.nav-list li{
+  padding:0 30px;
+
+}
+.ad{
+  padding:10px 0;
+  width:100%;
+  background-color:#999;
+}
+.ad p{
+  text-align: center;
+  font-size: 14;
+  font-family: "Roboto", sans-serif;
+  color:#EEEEEE;
+}
+.banner-1{
+  background-image: url(img/1banner.webp);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top:50px;
+  font-family: "Roboto", sans-serif ;
+  cursor: pointer;
+
+}
+.banner-1 h1{
+  font-size: 54px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.banner-1 h3{
+  padding-bottom: 8px;
+}
+.banner-1 a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.banner-1 a:hover{
+  text-decoration: underline;
+}
+.banner-1 i{
+  color:#44d62c;
+}
+.banner-2{
+  background-image: url(img/secondimg.webp);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top:50px;
+  font-family: "Roboto", sans-serif ;
+  cursor: pointer;
+}
+.banner-2 h1{
+  font-size: 54px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.banner-2 h3{
+  padding-bottom: 8px;
+}
+.banner-2 a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.banner-2 a:hover{
+  text-decoration: underline;
+}
+.banner-2 i{
+  color:#44d62c;
+}
+.banner-3{
+  background-image: url(img/thirdimg.webp);
+  height: 700px; 
+  background-position: center;
+  background-size: cover;
+  color: rgba(15, 14, 14, 0.622);
+  text-align: center;
+  padding-top:50px;
+  font-family: "Roboto", sans-serif ;
+  cursor: pointer;
+}
+.banner-3 h1{
+  font-size: 54px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  color: black;
+}
+.banner-3 h3{
+  padding-bottom: 8px;
+  font-size: 28px;
+  font-weight: 300;
+  color:black
+}
+.banner-3 a{
+  color:rgba(15, 14, 14, 0.622);
+  font-size: 20px;
+  text-decoration: none;
+}
+.banner-3 a:hover{
+  text-decoration: underline;
+  color:rgba(15, 14, 14, 0.622);
+}
+.banner-3 i{
+  color:rgba(15, 14, 14, 0.997);
+  font-size: large;
+}
+.banner-4{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 580px 580px 580px;
+  background-color: #222;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.grid-1{
+  width: 100%;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.text-grid{
+  padding-top: 50px;
+}
+
+.text-grid h1{
+  padding-bottom: 5px;
+}
+.text-grid p{
+  padding-bottom: 5px;
+}
+.banner-4 a{
+  color: white;
+  text-decoration: none;
+}
+.banner-4 a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.banner-4 i{
+  color: green;
+}
+.Footer{
+  background-color: black;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+  /* gap: 50px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 150px;
+  border-bottom: 5px solid;
+  border-color: gray;
+}
+
+.Footer li{
+  color:gray;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.Footer span{
+  padding: bottom 25px;
+  color:White;
+  font-size: 20px;
+}
+
+.Footer p{
+  color: green;
+  padding-right: 60px;
+}
+.shop li:hover{
+  text-decoration: underline;
+  color:white;
+  cursor: pointer;
+}
+.explore li:hover {
+  text-decoration: underline;
+  color:white;
+  cursor: pointer;
+}
+.support li:hover{
+  text-decoration: underline;
+  color:white;
+  cursor: pointer;
+}
+.Company li:hover{
+  text-decoration: underline;
+  color:white;
+  cursor: pointer;
+}
